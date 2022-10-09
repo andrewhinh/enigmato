@@ -5,6 +5,11 @@
 # Import Python Libraries
 from fastai.vision.all import *
 import os
+from tqdm import tqdm
+from dotenv import load_dotenv
+load_dotenv()
+
+TRAIN_PATH = os.getenv('TRAIN_PATH')
 
 class Predictor:
     """
@@ -42,14 +47,12 @@ class Predictor:
 # Example main function for testing/development
 # Run this file using `python3 submission.py`
 if __name__ == '__main__':
-    from tqdm import tqdm
-
     predictor = Predictor()
-    train_path = "./train"
+    
     total = correct = 0
 
-    for label in os.listdir(train_path):
-        curr_folder = os.path.join(train_path, label)
+    for label in os.listdir(TRAIN_PATH):
+        curr_folder = os.path.join(TRAIN_PATH, label)
         for img_path in tqdm(os.listdir(curr_folder)[:200]):
             img = os.path.join(curr_folder, img_path)
             prediction = predictor.make_prediction(img)
