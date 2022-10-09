@@ -4,7 +4,7 @@ Automated Image Patch Re-Ordering
 
 ## Setup to train and test our model
 1. Clone repo.
-2. Ru `cd src`.
+2. Run `cd src`.
 2. Create a python3 venv using `python3 -m venv env` and then `source env/bin/activate` or `<venv>\Scripts\activate.bat`, depending on your OS.
 3. Run `pip3 install -r requirements.txt`.
 4. Edit `TRAIN_PATH` in `.env` to be the location of your local training folder as downloaded from [here](https://drive.google.com/file/d/1tQTwXA3Z_ISTAZPScEz8baUYqgafRtpQ/view?usp=sharing).
