@@ -1,4 +1,4 @@
-# enigmato
+# Enigmato
 
 Automated Image Patch Re-Ordering
 
