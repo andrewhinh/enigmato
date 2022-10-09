@@ -11,6 +11,7 @@ Automated Image Patch Re-Ordering
 
 ## Notes
 - Built as a project for the `TAMU Datathon Challenge: Puzzle Solver` challenge.
+- Achieves ~85% on a subset of the training data we hold out as the validation set.
 
 ## Credit
 - fast.ai for their model training code.
