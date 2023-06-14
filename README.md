@@ -12,7 +12,7 @@ Automated Image Patch Re-Ordering
 6. Test out the model with `python3 submission.py`.
 
 ## Notes
-- Built as a project for the [TAMU Datathon Challenge: Puzzle Solver](https://tamudatathon.com/challenges/docs/td_challenge) challenge.
+- Project for the [TAMU Datathon](https://tamudatathon.com/) to solve the [Puzzle Solver](https://tamudatathon.com/challenges/docs/td_challenge) challenge.
 - Achieves ~90% accuracy on a subset of the training data we hold out as the validation set.
 
 ## Credit
