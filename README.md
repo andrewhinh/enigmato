@@ -14,6 +14,7 @@ Automated Image Patch Re-Ordering
 ## Notes
 - Project for the [TAMU Datathon](https://tamudatathon.com/) to solve the [Puzzle Solver](https://tamudatathon.com/challenges/docs/td_challenge) challenge.
 - Achieves ~90% accuracy on a subset of the training data we hold out as the validation set.
+- Check out the [Devpost](https://devpost.com/software/enigmato) for more info.
 
 ## Credit
 - [fast.ai](https://www.fast.ai/) for their model training code.
